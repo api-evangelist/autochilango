@@ -1,7 +1,26 @@
 aid: autochilango
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autochilango.png
 name: AutoChilango
-description: AutoChilango is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AutoChilango (Auto Chilango) is a Mexico City-based mobile application that consolidates
+  the everyday services drivers in CDMX and the State of Mexico need into a single app. It
+  covers the "Hoy No Circula" driving-restriction calendar, vehicular verification schedules,
+  traffic fines (multas) lookup and payment, annual registration (tenencia), insurance,
+  parking, gas stations, and mechanical services for private cars, motorcycles, taxis, and
+  special plates. Backed by 500 Global and added to the API Evangelist network as a company
+  profile; no public developer/API surface has been found, so this profile captures the
+  provider's identity, information surface (blog, FAQs, privacy), and probed domain security.
 url: https://raw.githubusercontent.com/api-evangelist/autochilango/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Automotive
+- Mobile App
+- Mexico
+- Mexico City
+- Drivers
+- Consumer
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://autochilango.com
+  url: https://www.autochilango.com
+- type: Blog
+  url: https://blog.autochilango.com/
+- type: HelpCenter
+  url: https://www.autochilango.com/faqs/
+- type: PrivacyPolicy
+  url: https://autoapps.co/autochilango/privacidad
+- type: DomainSecurity
+  url: security/autochilango-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
